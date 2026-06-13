@@ -1,0 +1,30 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.auth-card {
+  width: 100%;
+  max-width: 380px;
+}
+.auth-card h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.auth-error {
+  background: #fef2f2;
+  color: var(--danger);
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.auth-link {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 14px;
+  color: var(--text-light);
+}
