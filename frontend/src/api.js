@@ -1,4 +1,4 @@
-const BASE = '/api'
+const BASE = import.meta.env.DEV ? '/api' : 'https://ecommerce-churn-api-dubal.onrender.com';
 
 function getToken() {
   return localStorage.getItem('token')
