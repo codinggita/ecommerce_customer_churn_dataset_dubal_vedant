@@ -1,0 +1,33 @@
+.customers-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.customers-toolbar input,
+.customers-toolbar select {
+  width: auto;
+  min-width: 140px;
+  flex: 1;
+}
+.search-input {
+  flex: 2 !important;
+  min-width: 200px !important;
+}
+.table-wrap {
+  overflow-x: auto;
+}
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.badge-success {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+.badge-danger {
+  background: #f5f5f5;
+  color: #000;
+}
