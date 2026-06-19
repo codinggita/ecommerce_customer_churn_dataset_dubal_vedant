@@ -1,0 +1,23 @@
+.stats-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-align: center;
+}
+.stats-label {
+  font-size: 12px;
+  color: var(--text-light);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.stats-value {
+  font-size: 24px;
+  font-weight: 700;
+}
+.stats-sub {
+  font-size: 12px;
+  color: var(--text-light);
+  margin-top: 4px;
+}
